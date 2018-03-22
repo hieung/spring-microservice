@@ -50,11 +50,12 @@ Run on command line on folder ../target
 
 * End point by HATOES
 
-Get data in table customer
-> GET http://localhost:8080/customers
+1. Get data in table customer
+ > GET http://localhost:8080/customers
 
-Create a customer
-> POST http://localhost:8080/customers 
+2. Create a customer
+ > POST http://localhost:8080/customers 
+
 	Example body:
 	{
 		"name": "Liam Nguyen",
@@ -62,11 +63,11 @@ Create a customer
 		"createDate" : 1521687670
 	}
 
-Update a customer
-> PUT http://localhost:8080/customers/{id}
+3. Update a customer
+ > PUT http://localhost:8080/customers/{id}
 
-Delete a customer
-> DELETE http://localhost:8080/customers/{id}
+4. Delete a customer
+ > DELETE http://localhost:8080/customers/{id}
 
 	... (some api follow spring hatoes)
 
